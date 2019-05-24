@@ -20,6 +20,19 @@
         android:orientation="vertical" >
     </LinearLayout>
 
+    <!-- 头像位置 -->
+    <ImageView
+        android:id="@+id/joy"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"
+        android:padding="5dp"
+        android:src="@mipmap/battery" />
+
     <LinearLayout
         android:id="@+id/login_scroller"
         android:layout_width="match_parent"
